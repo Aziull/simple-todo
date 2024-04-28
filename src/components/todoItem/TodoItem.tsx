@@ -1,6 +1,5 @@
-import React from 'react';
 import { useDispatch } from 'react-redux';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Todo, toggleDeleteTodo } from '../../features/todos/todosSlice';
 import './todoItem.css'
 
